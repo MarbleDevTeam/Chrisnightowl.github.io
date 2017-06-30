@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://Chrisnightowl.github.io/yalu102.ipa</string>
+					<string>https://www.chrisnightowl.github.io/yalu102.ipa</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -19,13 +19,13 @@
 				<key>bundle-identifier</key>
 				<string>kim.cracksby.yalu102</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>4.0</string>
 				<key>kind</key>
-				<string>Game</string>
+				<string>software</string>
 				<key>subtitle</key>
 				<string>41A472</string>
 				<key>title</key>
-				<string>Yalu102</string>
+				<string>Yalu_102</string>
 			</dict>
 		</dict>
 	</array>
