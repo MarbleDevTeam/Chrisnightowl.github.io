@@ -10,42 +10,88 @@ a{
 }
 
 #CyRoamshape1 {
-    border-radius: 25px 25px 25px 25px;
+    border-radius: 0px 0px 25px 25px;
+    position: relative;
     background: #73AD21;
-    padding: 20px; 
+    padding: 20px;
     width: 933px;
     height: 300px; 
+    top: 130px;
+z-index: -1;
 }
+#LeftTab {
+    border-radius: 25px 0px 0px 25px;
+    position: fixed;
+    background: blue;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px; 
+    width: 280px;
+    top: -0;
+    height: 94px; 
+z-index: 1;
+}
+#RightTab {
+    border-radius: 0px 25px 25px 0px;
+    position: fixed;
+    background: blue;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px; 
+    width: 280px;
+    top: -0;
+    left: 657;
+    height: 94px; 
+z-index: 1;
+}
+#MiddleTab {
+    border-radius: 0px 0px 0px 0px;
+    position: fixed;
+    background: blue;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    padding: 20px; 
+    width: 280px;
+    top: -0;
+    left: 332;
+    height: 94px; 
+z-index: 1;
+}
+
 div.CyRoam {
-    position: relative;
-    top: -550px;
+    position: fixed;
+    top: -60px;
     left: 20px;
     width: 200px;
+z-index: 1;
 }
 div.ExtraInfo {
-    position: relative;
-    top: -230px;
-    left: 340px;
+    position: fixed;
+    top: 230px;
+    left: 355px;
     width: 553px;
+z-index: 1;
 }
 div.Nametag {
-    position: relative;
-    top: -340px;
-    left: 505px;
-    width: 400px;
+    position: fixed;
+    top: 370px;
+    left: 520px;
+    width: 2000px;
+z-index: 1;
 }
-
-
 
 </style>
 
-
-
 <!--HTML-->
-<title>IOSPOT-Home</title>
+<title>CyRoam</title>
 <!--Core HTML START-->
 <div id="CyRoamshape1"></div>
-
+<div id="LeftTab"></div>
+<div id="RightTab"></div>
+<div id="MiddleTab"></div>
 
 <div class="CyRoam">
   <h1 style="font-size:1550%;">CyRoam</h1>
