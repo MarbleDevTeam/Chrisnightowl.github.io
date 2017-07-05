@@ -1,4 +1,4 @@
-<!--css-->
+<!--Font Options-->
 <style>
 h1,
 p,
@@ -8,7 +8,11 @@ a{
   body{
    background-color: black;
 }
-
+<style>
+@font-face { font-family: SubtitleFont; src: url('go3v2.ttf'); } 
+</style>
+<!--main title-->
+<style>
 #CyRoamshape1 {
     border-radius: 20px 20px 25px 25px;
     position: fixed;
@@ -83,12 +87,13 @@ div.Nametag {
     width: 2000px;
 z-index: 1;
 }
-div.MainLogo {
+div.Subtitle {
     position: fixed;
     top: -115px;
     left: 293px;
     width: 2000px;
 z-index: 1;
+font-family: SubtitleFont;
 }
 
 </style>
@@ -111,7 +116,7 @@ z-index: 1;
   <div class="Nametag">
   <p style="font-size:200%;">@ITS_N1GH7OWL</p></div>
 
-  <div class="MainLogo">
+  <div class="Subtitle">
   <p style="font-size:700%;">CyRoam</p></div>
 
 <!--Core HTML END-->
