@@ -15,23 +15,24 @@ a{
 <style>
 #Twitter {
     border-radius: 20px 20px 25px 25px;
-    position: fixed;
+    position: relative;
     background: #1B7BA4;
     padding: 20px;
     width: 735px;
     height: 130px; 
-    top: 1200px;
-    left: 116px;
+    top: 850px;
+    left: 108px;
 }
 #CyRoamshape1 {
     border-radius: 20px 20px 25px 25px;
-    position: fixed;
+    position: relative;
     background: #73AD21;
     padding: 20px;
-    width: 935px;
+    width: 932px;
     height: 300px; 
     top: 240px;
     left: -1;
+z-index: -2;
 }
 #LeftTab {
     border-radius: 25px 0px 0px 25px;
@@ -44,6 +45,7 @@ a{
     width: 280px;
     top: 176;
     height: 15px; 
+    left: 3;
 }
 #RightTab {
     border-radius: 0px 25px 25px 0px;
@@ -55,7 +57,7 @@ a{
     padding: 20px; 
     width: 280px;
     top: 176;
-    left: 650;
+    left: 644;
     height: 15px; 
 }
 #MiddleTab {
@@ -68,21 +70,23 @@ a{
     padding: 20px; 
     width: 280px;
     top: 176;
-    left: 328;
+    left: 320;
     height: 15px; 
 }
 div.CyRoam {
-    position: fixed;
-    top: 80px;
+    position: relative;
+    top: -610px;
     left: 30px;
     width: 200px;
     text-shadow: 10px -5px black;
+    z-index: -1;
 }
 div.ExtraInfo {
-    position: fixed;
-    top: 430px;
+    position: relative;
+    top: -830px;
     left: 370px;
-    width: 753px;
+    width: 570px;
+z-index: -1;
 }
 div.Subtitle {
     position: fixed;
@@ -92,43 +96,41 @@ div.Subtitle {
 font-family: SubtitleFont;
 }
 div.TwitterIcon{
-    position: fixed;
-    top: 1220px;
+    position: relative;
+    top: -290px;
     left: 150px;
-    width: 2000px;
+    width: 100px;
 }
 div.TwitterLink{
-    position: fixed;
-    top: 1245px;
+    position: relative;
+    top: -145px;
     left: 350px;
-     width: 1000px;
+     width: 400px;
      text-decoration: none;
-     z-index: 1;
      font-family: LinksFont;
 }
 #Paypal {
     border-radius: 20px 20px 25px 25px;
-    position: fixed;
+    position: relative;
     background: #1B7BA4;
     padding: 20px;
     width: 735px;
     height: 130px; 
-    top: 1020px;
-    left: 115px;
+    top: 500px;
+    left: 108px;
 }
 div.PaypalIcon{
-    position: fixed;
-    top: 1040px;
+    position: relative;
+    top: -595px;
     left: 140px;
-    width: 2000px;
+    width: 1px;
 }
 div.PaypalLink{
-    position: fixed;
-    top: 1080px;
+    position: relative;
+    top: -375px;
     left: 300px;
-     width: 1000px;
+     width: 600px;
      text-decoration: none;
-     z-index: 1;
      font-family: LinksFont;
 }
 
@@ -184,7 +186,7 @@ href="chrisnightowl.github.io/database.html">Information</a></div>
 div.Applications{
     position: fixed;
     top: 170px;
-    left: 340px;
+    left: 333px;
      width: 1000px;
      z-index: 1;
      font-size: 350%;
@@ -192,7 +194,7 @@ div.Applications{
 div.Information{
     position: fixed;
     top: 172px;
-    left: 680px;
+    left: 670px;
      width: 1000px;
      z-index: 1;
      font-size: 350%;
