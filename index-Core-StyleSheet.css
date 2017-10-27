@@ -1,0 +1,32 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Geo');
+
+
+/*Background Image*/
+body{
+    background-image: url(https://amazingpict.com/wp-content/uploads/2015/01/dark-designs.jpg)
+}
+/*Title(TeamNightOwl)*/
+#Title{
+    position: fixed;
+    color: black;
+    font-size: 40px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    width: 0px;
+    left: 460px;
+    top: -65px;
+    text-shadow: 3px -3px white;
+}
+/*Color In Background Of Title*/
+#TitleBackground{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 1366px;
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+    z-index: -2;
+
+}
