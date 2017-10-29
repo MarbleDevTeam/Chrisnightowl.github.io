@@ -21,16 +21,16 @@ body{
 #TitleBackground{
     position: relative;
     top: -185px;
-    left: 0px;
+    left: 5px;
     height: 100px;
-    width: 100%px;
+    width: 100%;
     text-align: center;
     background-color: black;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 0px 0px;
     z-index: -2;
 }
 #Text-Holder{
-    position: absolute;
+    position: relative;
     top: 230px;
     left: 330px;
     height: 300px;
@@ -43,7 +43,7 @@ body{
 }
 #Introduction-Text{
     position: relative;
-    top: 250px;
+    top: -50px;
     text-align:center;
     color: white;
     font-family: 'Orbitron', sans-serif;
@@ -51,10 +51,9 @@ body{
 #Introduction-Message{
     position: relative;
     top: 250px;
-    left: 430px;
     color: white;
     font-size: 30px;
-    width: 500px;
+    width: 600px;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
 }

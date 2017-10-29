@@ -1,12 +1,13 @@
 /*Navigation Bar CSS Is Listed Below*/
 ul {
-    position: fixed;
+    position: relative;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    top: 100px;
+    top: -691px;
+    text-align: center;
     left: 0px;
     font-size: 20px;
     font-family: 'Geo', sans-serif;
