@@ -12,7 +12,7 @@ body{
     color: black;
     font-size: 40px;
     font-family: 'Saira Extra Condensed', sans-serif;
-    width: 1330px;
+    width: 100%;
     text-align: center;
     top: -20px;
     text-shadow: 3px -3px white;
@@ -23,7 +23,7 @@ body{
     top: -185px;
     left: 0px;
     height: 100px;
-    width: 1340px;
+    width: 100%px;
     text-align: center;
     background-color: black;
     border-radius: 0px 0px 10px 10px;
