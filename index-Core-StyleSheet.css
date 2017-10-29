@@ -8,23 +8,23 @@ body{
 }
 /*Title(TeamNightOwl)*/
 #Title{
-    position: fixed;
+    position: relative;
     color: black;
     font-size: 40px;
     font-family: 'Saira Extra Condensed', sans-serif;
-    width: 1350px;
+    width: 1330px;
     text-align: center;
-    top: -65px;
-    left: 0px;
+    top: -20px;
     text-shadow: 3px -3px white;
 }
 /*Color In Background Of Title*/
 #TitleBackground{
-    position: fixed;
-    top: 0px;
+    position: relative;
+    top: -185px;
     left: 0px;
     height: 100px;
-    width: 1366px;
+    width: 1340px;
+    text-align: center;
     background-color: black;
     border-radius: 0px 0px 10px 10px;
     z-index: -2;
