@@ -12,9 +12,10 @@ body{
     color: black;
     font-size: 40px;
     font-family: 'Saira Extra Condensed', sans-serif;
-    width: 0px;
-    left: 490px;
+    width: 1350px;
+    text-align: center;
     top: -65px;
+    left: 0px;
     text-shadow: 3px -3px white;
 }
 /*Color In Background Of Title*/
