@@ -26,26 +26,42 @@ body{
     height: 100px;
     width: 100%;
     text-align: center;
+    margin: auto;
     background-color: black;
     border-radius: 0px 0px 0px 0px;
     z-index: -2;
 }
 #Introduction-Text{
     position: relative;
-    top: -50px;
+    top: -350px;
     text-align: center;
      margin: auto;
     color: white;
     font-family: 'Orbitron', sans-serif;
     width: 250px;
-
 }
+
 #Introduction-Message{
     position: relative;
-    top: 250px;
+    top: -370px;
+    margin: auto;
     color: white;
+    text-align: center;
     font-size: 30px;
     width: 600px;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
+}
+#Introduction-Background{
+    position: relative;
+    top: -60px;
+    left: 5px;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    border-radius: 20px 20px 20px 20px;
+     opacity: 0.5;
+    z-index: -2;
 }
