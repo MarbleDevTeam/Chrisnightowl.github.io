@@ -1,0 +1,67 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Geo');
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+/*Background Image*/
+body{
+    background-image: url(https://amazingpict.com/wp-content/uploads/2015/01/dark-designs.jpg)
+}
+/*Title(TeamNightOwl)*/
+#Title{
+    position: relative;
+    color: black;
+    font-size: 40px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    top: -20px;
+    text-shadow: 3px -3px white;
+}
+/*Color In Background Of Title*/
+#TitleBackground{
+    position: relative;
+    top: -185px;
+    left: 5px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    border-radius: 0px 0px 0px 0px;
+    z-index: -2;
+}
+#Introduction-Text{
+    position: relative;
+    top: -350px;
+    text-align: center;
+     margin: auto;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    width: 250px;
+}
+
+#Introduction-Message{
+    position: relative;
+    top: -370px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width: 600px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+#Introduction-Background{
+    position: relative;
+    top: -60px;
+    left: 5px;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    border-radius: 20px 20px 20px 20px;
+     opacity: 0.5;
+    z-index: -2;
+}
