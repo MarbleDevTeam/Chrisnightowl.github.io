@@ -4,7 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 /*Background Image*/
 body{
-    background-image: url(https://amazingpict.com/wp-content/uploads/2015/01/dark-designs.jpg)
+    background-image: url(https://amazingpict.com/wp-content/uploads/2015/01/dark-designs.jpg);
+    width: 100%;
+    margin: auto;
 }
 /*Title(TeamNightOwl)*/
 #Title{
