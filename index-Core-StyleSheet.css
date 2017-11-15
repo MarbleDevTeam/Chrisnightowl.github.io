@@ -40,7 +40,7 @@ body{
      margin: auto;
     color: white;
     font-family: 'Orbitron', sans-serif;
-    width: 250px;
+    width: 100%;
 }
 
 #Introduction-Message{
@@ -59,7 +59,7 @@ body{
     top: -60px;
     left: 5px;
     height: 300px;
-    width: 55%;
+    width: 700px;
     text-align: center;
     margin: auto;
     background-color: black;
