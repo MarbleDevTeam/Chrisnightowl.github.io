@@ -57,10 +57,9 @@ body{
 #Introduction-Background{
     position: relative;
     top: -60px;
-    left: 5px;
+    left: 0px;
     height: 300px;
-    width: 610px;
-    text-align: center;
+    width: 617px;
     margin: auto;
     background-color: black;
     border-radius: 20px 20px 20px 20px;
