@@ -38,7 +38,7 @@ body{
     border-radius: 0px 0px 0px 0px;
     z-index: -2;
 }
-#JavaSurf-Text{
+#Projects-Lgo{
     position: relative;
     top: -390px;
     left: -0px;
@@ -48,24 +48,51 @@ body{
     font-family: 'Berkshire Swash', cursive;
     width: 50%;
 }
-
-#Javasurf-Subtitle{
+#Projects-Box{
     position: relative;
-    top: -495px;
-    margin: auto;
-   left: 130px;
-    color: white;
-    font-size: 27px;
-    width: 500px;
+    top: -127px;
+    left: -150px;
+    height: 200px;
+    width: 280px;
     text-align: center;
-    font-family: 'Kelly Slab', cursive;
+    margin: auto;
+    background-color: #FF0000;
+    border-radius: 20px 20px 20px 20px;
+     opacity: 0.5;
+    z-index: -2;
 }
-#Introduction-Background{
+#SourceCode-Box{
     position: relative;
-    top: -60px;
-    left: 5px;
-    height: 300px;
-    width: 55%;
+    top: -327px;
+    left: 150px;
+    height: 200px;
+    width: 280px;
+    text-align: center;
+    margin: auto;
+    background-color: #1927D1;
+    border-radius: 20px 20px 20px 20px;
+     opacity: 0.5;
+    z-index: -2;
+}
+#Developers-Box{
+    position: relative;
+    top: -307px;
+    left: -150px;
+    height: 200px;
+    width: 280px;
+    text-align: center;
+    margin: auto;
+    background-color: #F7F005;
+    border-radius: 20px 20px 20px 20px;
+     opacity: 0.5;
+    z-index: -2;
+}
+#UpdateLog-Box{
+    position: relative;
+    top: -507px;
+    left: 150px;
+    height: 200px;
+    width: 280px;
     text-align: center;
     margin: auto;
     background-color: black;
