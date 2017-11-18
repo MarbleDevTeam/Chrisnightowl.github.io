@@ -1,0 +1,101 @@
+/*Internal Thoughts*/
+
+@font-face {
+  font-family: TitleFont;
+  src: url(Timmana-Regular.ttf);
+}
+
+body {
+  background-image: url("HomePage-Background.jpg");
+  width: 100%;
+  margin: auto;
+}
+
+/*Title Attributes*/
+
+#Title {
+  position: relative;
+  font-family: TitleFont;
+  font-size: 27px;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+#Title-Background {
+  position: relative;
+  top: -230px;
+  left: 0px;
+  height: 190px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  background-color: black;
+  border-radius: 0px 0px 0px 0px;
+  z-index: -2;
+  opacity: 0.60;
+}
+
+#Subtitle {
+  position: relative;
+  font-family: TitleFont;
+  font-size: 20px;
+  top: -277px;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+/*Paths To Different Applications*/
+
+#Projects-Path {
+  position: relative;
+  top: -290px;
+  left: 0px;
+  height: 130px;
+  width: 95%;
+  margin: auto;
+  background-color: #FF0000;
+  border-radius: 20px 20px 20px 20px;
+  opacity: 0.7;
+  z-index: -2;
+}
+
+#SourceCode-Path {
+  position: relative;
+  top: -280px;
+  left: 0px;
+  height: 130px;
+  width: 95%;
+  margin: auto;
+  background-color: #1c00ff;
+  border-radius: 20px 20px 20px 20px;
+  opacity: 0.7;
+  z-index: -2;
+}
+
+#Developers-Path {
+  position: relative;
+  top: -270px;
+  left: 0px;
+  height: 130px;
+  width: 95%;
+  margin: auto;
+  background-color: #ffed00;
+  border-radius: 20px 20px 20px 20px;
+  opacity: 0.7;
+  z-index: -2;
+}
+
+#GlobalChat-Path {
+  position: relative;
+  top: -260px;
+  left: 0px;
+  height: 130px;
+  width: 95%;
+  margin: auto;
+  background-color: #FF0000;
+  border-radius: 20px 20px 20px 20px;
+  opacity: 0.7;
+  z-index: -2;
+}
