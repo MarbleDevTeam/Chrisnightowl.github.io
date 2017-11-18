@@ -2,9 +2,12 @@
 
 @font-face {
   font-family: TitleFont;
-  src: url(Timmana-Regular.ttf);
+  src: url(fonts/Timmana-Regular.ttf);
 }
-
+@font-face {
+  font-family: PathsFont;
+  src: url(fonts/Audiowide-Regular.ttf);
+}
 /*Stop Website Overscrolling*/
 
 html {
@@ -68,6 +71,16 @@ body {
   border-radius: 20px 20px 20px 20px;
   opacity: 0.7;
   z-index: -2;
+}
+
+#Projects-Header {
+  position: relative;
+  font-family: PathsFont;
+  font-size: 40px;
+  top: -363px;
+  margin: auto;
+  text-align: center;
+  color: white;
 }
 
 #SourceCode-Path {
