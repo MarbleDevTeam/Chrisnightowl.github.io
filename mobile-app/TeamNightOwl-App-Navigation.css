@@ -1,0 +1,35 @@
+/*Navigation Bar CSS Is Listed Below(Credit To w3 Schools For This:)*/
+ul {
+    position: relative;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: -305px;
+    text-align: center;
+    left: 0px;
+    font-size: 20px;
+    font-family:sans-serif;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 1px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
