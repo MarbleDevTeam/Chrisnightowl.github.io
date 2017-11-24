@@ -10,17 +10,8 @@
 }
 /*Stop Website Overscrolling*/
 
-html {
-  overflow: hidden;
-  height: 100%;
-}
-
 body {
   background-image: url("HomePage-Background.jpg");
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  margin: auto;
 }
 
 /*Title Attributes*/
