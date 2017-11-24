@@ -10,8 +10,17 @@
 }
 /*Stop Website Overscrolling*/
 
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
 body {
   background-image: url("HomePage-Background.jpg");
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  margin: auto;
 }
 
 /*Title Attributes*/
@@ -53,7 +62,7 @@ body {
 
 #Projects-Path {
   position: relative;
-  top: -295px;
+  top: -300px;
   left: 0px;
   height: 130px;
   width: 95%;
@@ -68,7 +77,7 @@ body {
   position: relative;
   font-family: PathsFont;
   font-size: 40px;
-  top: -457px;
+  top: -462px;
   text-align: center;
   margin: auto;
   color: white;
@@ -77,7 +86,7 @@ body {
 
 #SourceCode-Path {
   position: relative;
-  top: -415px;
+  top: -420px;
   left: 0px;
   height: 130px;
   width: 95%;
@@ -93,7 +102,7 @@ body {
   position: relative;
   font-family: PathsFont;
   font-size: 40px;
-  top: -577px;
+  top: -582px;
   text-align: center;
   margin: auto;
   color: white;
@@ -102,7 +111,7 @@ body {
 
 #Developers-Path {
   position: relative;
-  top: -535px;
+  top: -540px;
   left: 0px;
   height: 130px;
   width: 95%;
@@ -117,7 +126,7 @@ body {
   position: relative;
   font-family: PathsFont;
   font-size: 40px;
-  top: -697px;
+  top: -702px;
   text-align: center;
   margin: auto;
   color: white;
@@ -126,7 +135,7 @@ body {
 
 #UpdateLog-Path {
   position: relative;
-  top: -655px;
+  top: -660px;
   left: 0px;
   height: 130px;
   width: 95%;
@@ -141,7 +150,7 @@ body {
   position: relative;
   font-family: PathsFont;
   font-size: 40px;
-  top: -817px;
+  top: -822px;
   text-align: center;
   margin: auto;
   color: white;
