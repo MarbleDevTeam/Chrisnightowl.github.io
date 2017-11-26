@@ -1,4 +1,4 @@
-/*Internal Thoughts*/
+/*Internal Fonts*/
 
 @font-face {
   font-family: TitleFont;
@@ -28,7 +28,7 @@ body {
 #Title {
   position: relative;
   font-family: TitleFont;
-  font-size: 27px;
+  font-size: 37px;
   margin: auto;
   text-align: center;
   color: white;
@@ -48,24 +48,14 @@ body {
   opacity: 0.60;
 }
 
-#Subtitle {
-  position: relative;
-  font-family: TitleFont;
-  font-size: 20px;
-  top: -277px;
-  margin: auto;
-  text-align: center;
-  color: white;
-}
-
 /*Paths To Different Applications*/
 
 #Projects-Path {
   position: relative;
-  top: -300px;
+  top: -310px;
   left: 0px;
   height: 130px;
-  width: 95%;
+  width: 70%;
   margin: auto;
   background-color: #FF0000;
   border-radius: 20px 20px 20px 20px;
@@ -77,7 +67,7 @@ body {
   position: relative;
   font-family: PathsFont;
   font-size: 40px;
-  top: -462px;
+  top: -472px;
   text-align: center;
   margin: auto;
   color: white;
@@ -86,10 +76,10 @@ body {
 
 #SourceCode-Path {
   position: relative;
-  top: -420px;
+  top: -430px;
   left: 0px;
   height: 130px;
-  width: 95%;
+  width: 70%;
   margin: auto;
   background-color: #1c00ff;
   border-radius: 20px 20px 20px 20px;
@@ -102,7 +92,7 @@ body {
   position: relative;
   font-family: PathsFont;
   font-size: 40px;
-  top: -582px;
+  top: -592px;
   text-align: center;
   margin: auto;
   color: white;
@@ -111,10 +101,10 @@ body {
 
 #Developers-Path {
   position: relative;
-  top: -540px;
+  top: -550px;
   left: 0px;
   height: 130px;
-  width: 95%;
+  width: 70%;
   margin: auto;
   background-color: #ffed00;
   border-radius: 20px 20px 20px 20px;
@@ -126,7 +116,7 @@ body {
   position: relative;
   font-family: PathsFont;
   font-size: 40px;
-  top: -702px;
+  top: -712px;
   text-align: center;
   margin: auto;
   color: white;
@@ -135,10 +125,10 @@ body {
 
 #UpdateLog-Path {
   position: relative;
-  top: -660px;
+  top: -670px;
   left: 0px;
   height: 130px;
-  width: 95%;
+  width: 70%;
   margin: auto;
   background-color: #3fd421;
   border-radius: 20px 20px 20px 20px;
@@ -150,8 +140,335 @@ body {
   position: relative;
   font-family: PathsFont;
   font-size: 40px;
-  top: -822px;
+  top: -832px;
   text-align: center;
   margin: auto;
   color: white;
 }
+/*Galaxy S5, iPhone, Every Smartphone CSS*/
+</style>
+
+/*Galaxy S5 CSS*/
+<style>
+    /*Internal Fonts*/
+
+    @font-face {
+      font-family: TitleFont;
+      src: url(fonts/Timmana-Regular.ttf);
+    }
+    @font-face {
+      font-family: PathsFont;
+      src: url(fonts/Paths-HeaderFont.ttf);
+    }
+    @media all and (max-width: 640px) and (min-width: 320px) {
+    /*Stop Website Overscrolling*/
+
+    html {
+      overflow: hidden;
+      height: 100%;
+    }
+
+    body {
+      background-image: url("HomePage-Background.jpg");
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      margin: auto;
+    }
+
+    /*Title Attributes*/
+
+    #Title {
+      position: relative;
+      font-family: TitleFont;
+      font-size: 27px;
+      margin: auto;
+      text-align: center;
+      color: white;
+    }
+
+    #Title-Background {
+      position: relative;
+      top: -230px;
+      left: 0px;
+      height: 190px;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+      background-color: black;
+      border-radius: 0px 0px 0px 0px;
+      z-index: -2;
+      opacity: 0.60;
+    }
+
+    #Subtitle {
+      position: relative;
+      font-family: TitleFont;
+      font-size: 20px;
+      top: -277px;
+      margin: auto;
+      text-align: center;
+      color: white;
+    }
+
+    /*Paths To Different Applications*/
+
+    #Projects-Path {
+      position: relative;
+      top: -300px;
+      left: 0px;
+      height: 130px;
+      width: 95%;
+      margin: auto;
+      background-color: #FF0000;
+      border-radius: 20px 20px 20px 20px;
+      opacity: 0.7;
+      z-index: -2;
+    }
+
+    #Projects-Header {
+      position: relative;
+      font-family: PathsFont;
+      font-size: 40px;
+      top: -462px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
+
+
+    #SourceCode-Path {
+      position: relative;
+      top: -420px;
+      left: 0px;
+      height: 130px;
+      width: 95%;
+      margin: auto;
+      background-color: #1c00ff;
+      border-radius: 20px 20px 20px 20px;
+      opacity: 0.7;
+      z-index: -2;
+    }
+
+
+    #SourceCode-Header {
+      position: relative;
+      font-family: PathsFont;
+      font-size: 40px;
+      top: -582px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
+
+
+    #Developers-Path {
+      position: relative;
+      top: -540px;
+      left: 0px;
+      height: 130px;
+      width: 95%;
+      margin: auto;
+      background-color: #ffed00;
+      border-radius: 20px 20px 20px 20px;
+      opacity: 0.7;
+      z-index: -2;
+    }
+
+    #Developers-Header {
+      position: relative;
+      font-family: PathsFont;
+      font-size: 40px;
+      top: -702px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
+
+
+    #UpdateLog-Path {
+      position: relative;
+      top: -660px;
+      left: 0px;
+      height: 130px;
+      width: 95%;
+      margin: auto;
+      background-color: #3fd421;
+      border-radius: 20px 20px 20px 20px;
+      opacity: 0.7;
+      z-index: -2;
+    }
+
+    #UpdateLog-Header {
+      position: relative;
+      font-family: PathsFont;
+      font-size: 40px;
+      top: -822px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
+
+  }
+</style>
+/* iPad CSS*/
+<style>
+
+    @font-face {
+      font-family: TitleFont;
+      src: url(fonts/Timmana-Regular.ttf);
+    }
+    @font-face {
+      font-family: PathsFont;
+      src: url(fonts/Paths-HeaderFont.ttf);
+    }
+    @media all and (max-width: 1500px) and (min-width: 900px) {
+    /*Stop Website Overscrolling*/
+
+    html {
+      overflow: hidden;
+      height: 100%;
+    }
+
+    body {
+      background-image: url("HomePage-Background.jpg");
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      margin: auto;
+    }
+
+    /*Title Attributes*/
+
+    #Title {
+      position: relative;
+      font-family: TitleFont;
+      font-size: 67px;
+      margin: auto;
+      text-align: center;
+      color: white;
+    }
+
+    #Title-Background {
+      position: relative;
+      top: -230px;
+      left: 0px;
+      height: 140px;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+      background-color: black;
+      border-radius: 0px 0px 0px 0px;
+      z-index: -2;
+      opacity: 0.60;
+    }
+
+    #Subtitle {
+      position: relative;
+      font-family: TitleFont;
+      font-size: 40px;
+      top: -337px;
+      margin: auto;
+      text-align: center;
+      color: white;
+    }
+
+    /*Paths To Different Applications*/
+
+    #Projects-Path {
+      position: relative;
+      top: -300px;
+      left: 0px;
+      height: 250px;
+      width: 95%;
+      margin: auto;
+      background-color: #FF0000;
+      border-radius: 20px 20px 20px 20px;
+      opacity: 0.7;
+      z-index: -2;
+    }
+
+    #Projects-Header {
+      position: relative;
+      font-family: PathsFont;
+      font-size: 80px;
+      top: -562px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
+
+
+    #SourceCode-Path {
+      position: relative;
+      top: -420px;
+      left: 0px;
+      height: 250px;
+      width: 95%;
+      margin: auto;
+      background-color: #1c00ff;
+      border-radius: 20px 20px 20px 20px;
+      opacity: 0.7;
+      z-index: -2;
+    }
+
+
+    #SourceCode-Header {
+      position: relative;
+      font-family: PathsFont;
+      font-size: 80px;
+      top: -682px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
+
+
+    #Developers-Path {
+      position: relative;
+      top: -540px;
+      left: 0px;
+      height: 250px;
+      width: 95%;
+      margin: auto;
+      background-color: #ffed00;
+      border-radius: 20px 20px 20px 20px;
+      opacity: 0.7;
+      z-index: -2;
+    }
+
+    #Developers-Header {
+      position: relative;
+      font-family: PathsFont;
+      font-size: 80px;
+      top: -802px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
+
+
+    #UpdateLog-Path {
+      position: relative;
+      top: -660px;
+      left: 0px;
+      height: 250px;
+      width: 95%;
+      margin: auto;
+      background-color: #3fd421;
+      border-radius: 20px 20px 20px 20px;
+      opacity: 0.7;
+      z-index: -2;
+    }
+
+    #UpdateLog-Header {
+      position: relative;
+      font-family: PathsFont;
+      font-size: 80px;
+      top: -922px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
+
+  }
