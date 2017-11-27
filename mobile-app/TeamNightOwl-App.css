@@ -160,6 +160,10 @@ body {
       font-family: PathsFont;
       src: url(fonts/Paths-HeaderFont.ttf);
     }
+    @font-face {
+      font-family:DescriptionFont;
+      src: url(fonts/JuliusSansOne-Regular.ttf);
+    }
     @media all and (max-width: 640px) and (min-width: 320px) {
     /*Stop Website Overscrolling*/
 
@@ -235,11 +239,20 @@ body {
       margin: auto;
       color: white;
     }
-
+    #Projects-Description {
+      position: relative;
+      font-family: DescriptionFont;
+      font-size: 25px;
+      width: 90%;
+      top: -497px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
 
     #SourceCode-Path {
       position: relative;
-      top: -420px;
+      top: -500px;
       left: 0px;
       height: 130px;
       width: 95%;
@@ -255,16 +268,26 @@ body {
       position: relative;
       font-family: PathsFont;
       font-size: 40px;
-      top: -582px;
+      top: -662px;
       text-align: center;
       margin: auto;
       color: white;
     }
 
+    #SourceCode-Description {
+      position: relative;
+      font-family: DescriptionFont;
+      font-size: 25px;
+      width: 90%;
+      top: -697px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
 
     #Developers-Path {
       position: relative;
-      top: -540px;
+      top: -700px;
       left: 0px;
       height: 130px;
       width: 95%;
@@ -279,16 +302,26 @@ body {
       position: relative;
       font-family: PathsFont;
       font-size: 40px;
-      top: -702px;
+      top: -862px;
       text-align: center;
       margin: auto;
       color: white;
     }
 
+    #Developers-Description {
+      position: relative;
+      font-family: DescriptionFont;
+      font-size: 25px;
+      width: 90%;
+      top: -897px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
 
     #UpdateLog-Path {
       position: relative;
-      top: -660px;
+      top: -900px;
       left: 0px;
       height: 130px;
       width: 95%;
@@ -303,7 +336,18 @@ body {
       position: relative;
       font-family: PathsFont;
       font-size: 40px;
-      top: -822px;
+      top: -1062px;
+      text-align: center;
+      margin: auto;
+      color: white;
+    }
+
+    #UpdateLog-Description {
+      position: relative;
+      font-family: DescriptionFont;
+      font-size: 25px;
+      width: 90%;
+      top: -1097px;
       text-align: center;
       margin: auto;
       color: white;
@@ -322,7 +366,7 @@ body {
       font-family: PathsFont;
       src: url(fonts/Paths-HeaderFont.ttf);
     }
-    @media all and (max-width: 1500px) and (min-width: 900px) {
+    @media all and (max-width: 1024px) and (min-width: 1024px) {
     /*Stop Website Overscrolling*/
 
     html {
