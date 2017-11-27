@@ -242,7 +242,7 @@ body {
     #Projects-Description {
       position: relative;
       font-family: DescriptionFont;
-      font-size: 25px;
+      font-size: 20px;
       width: 95%;
       top: -497px;
       text-align: center;
@@ -277,7 +277,7 @@ body {
     #SourceCode-Description {
       position: relative;
       font-family: DescriptionFont;
-      font-size: 25px;
+      font-size: 20px;
       width: 95%;
       top: -697px;
       text-align: center;
@@ -311,7 +311,7 @@ body {
     #Developers-Description {
       position: relative;
       font-family: DescriptionFont;
-      font-size: 25px;
+      font-size: 20px;
       width: 95%;
       top: -897px;
       text-align: center;
@@ -345,7 +345,7 @@ body {
     #UpdateLog-Description {
       position: relative;
       font-family: DescriptionFont;
-      font-size: 25px;
+      font-size: 20px;
       width: 95%;
       top: -1097px;
       text-align: center;
