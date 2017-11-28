@@ -3,8 +3,10 @@ ________________________________________________________________________________
 
 How To Add TNO.css To Your Website
 _________________________________________
-Enter This Into Your Website <head> Tags: <link rel="stylesheet" type="text/css" href="mystyle.css">
-
+Enter This Into Your Website <head> Tags: 
+<head>
+<link rel="stylesheet" type="text/css" href="Chrisnightowl.github.io/TeamNightOwl-CSS/TNO.css">
+</head>
 
 TeamNightOwl.CSS Is An Open Source CSS Project
 Which Is Meant To Help Developers From Any Skill
