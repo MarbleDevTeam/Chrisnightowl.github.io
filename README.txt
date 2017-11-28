@@ -58,7 +58,9 @@ ________________________________________________________________________________
  TNO-textalignleft    Align Text With Left Of Page
  TNO-textalignright   Aligns Text With Right Of Page
  
- TNO-fontsizeNUMBER<--Enter A Number Up To 500 Here. The Numbers Must Go Up By 5's (Example: TNO-fontsize5, TNO-fontsize10, etc
+ TNO-fontsizeNUMBER<--Enter A Number Up To 500 Here.Number Must Go Up By 5's
+ Example:TNO-fontsize325, TNO-fontsize330, TNO-fontsize335, etc
+ 
  
  TNO-rainbowtext      Makes Text Flash Five Different Colors Forever
  TNO-rainbowtext1sec  Makes Text Flash Five Different In 1 Second Forever
