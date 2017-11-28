@@ -1,5 +1,11 @@
 TeamNightOwl.CSS
-_______________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________
+
+How To Add TNO.css To Your Website
+_________________________________________
+Enter This Into Your Website <head> Tags: <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
 TeamNightOwl.CSS Is An Open Source CSS Project
 Which Is Meant To Help Developers From Any Skill
 Set Design Their Website Faster And More
